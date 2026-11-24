@@ -1,0 +1,22 @@
+:root {
+  color-scheme: dark;
+  background: #101815;
+  color: #eff8f2;
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
+}
+body { margin: 0; }
+main {
+  max-width: 44rem;
+  margin: auto;
+  padding: clamp(1.25rem, 5vw, 3rem);
+}
+header { border-bottom: 1px solid #476358; padding-bottom: 1rem; }
+h1 { margin: 0; font-size: clamp(2rem, 5vw, 3rem); line-height: 1.15; }
+.brand { margin: 0 0 .4rem; color: #83e6ae; font-weight: 700; }
+nav { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1rem; }
+section { padding: .75rem 0; }
+section + section { border-top: 1px solid #476358; }
+li + li { margin-top: .65rem; }
+a { color: #83e6ae; text-underline-offset: .2em; }
+a:focus-visible { outline: 2px solid currentColor; outline-offset: .2em; }
